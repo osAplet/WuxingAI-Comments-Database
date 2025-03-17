@@ -1,1 +1,25 @@
 Leiningen.gitignore
+# Ignore Clojure REPL nREPL temp files
+repl_sessions/
+
+# Ignore compiled classes
+classes/
+
+# Ignore Leiningen specific files
+.lein-repl-history
+.lein-credentials.clj.gpg
+
+# Ignore configuration files
+.project
+.project.lock
+.project.cache
+.project.legacy
+
+# Ignore Emacs temporary files
+*~
+
+# Ignore Vim temporary files
+*.swp
+
+# Existing entry
+Leiningen.gitignore
